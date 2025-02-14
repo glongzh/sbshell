@@ -16,12 +16,13 @@ Sbshell 是一款针对 官方sing-box 的辅助运行脚本，旨在解决官�
 
 ## 设备支持：
 
-目前支持系统为deiban/ubuntu/armbian以及openwrt！
+目前支持系统为deiban/ubuntu/armbian以及openwrt[https://openwrt.ai/]！
 
-## **[推荐机场](https://st1.hosbb.com/#/register?code=HZ4Ju1me)**
+**注意**：openwrt的sing-box安装完成后，需要修改`/etc/config/sing-box`的默认配置，enabled改成1，user改成root，不然sing-box无法启动！
+
 ## 一键脚本：(请自行安装curl和bash，如果缺少的话)
 ```
-bash <(curl -sL https://ghfast.top/https://raw.githubusercontent.com/qichiyuhub/sbshell/refs/heads/master/sbshall.sh)
+bash <(curl -sL https://ghfast.top/https://raw.githubusercontent.com/glongzh/sbshell/refs/heads/master/sbshall.sh)
 ```
 - 初始化运行结束，输入“**sb**”进入菜单
 - 目前支持系统为deiban/ubuntu/armbian/openwrt。  
@@ -39,10 +40,10 @@ bash <(curl -sL https://ghfast.top/https://raw.githubusercontent.com/qljsyph/DPI
 
 ### 稳定版(1.11)：  
 tproxy：  
-https://ghfast.top/https://raw.githubusercontent.com/qichiyuhub/sbshell/refs/heads/master/config_template/config_tproxy.json  
+https://ghfast.top/https://raw.githubusercontent.com/glongzh/sbshell/refs/heads/master/config_template/config_tproxy.json  
 
 tun：  
-https://ghfast.top/https://raw.githubusercontent.com/qichiyuhub/sbshell/refs/heads/master/config_template/config_tun.json  
+https://ghfast.top/https://raw.githubusercontent.com/glongzh/sbshell/refs/heads/master/config_template/config_tun.json  
 
 
 ## Youtube视频教程：
